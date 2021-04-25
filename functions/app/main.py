@@ -37,11 +37,11 @@ from google.cloud import automl_v1beta1 as automl
 from google.protobuf import json_format
 
 # generate PNGs for each page and labeled CSV for annotation
-ANNOTATION_MODE = True
+ANNOTATION_MODE = False
 
 # AutoML Tables configs
 compute_region = "us-central1"
-model_display_name = "<YOUR MODEL DISPLAY NAME>"
+model_display_name = "stef-model-1"
 
 # break length
 SECTION_BREAK = 2  # sec
